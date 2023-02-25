@@ -10,14 +10,14 @@ Para adicionar o bot ao seu servidor do Discord, você deve ter privilégios de 
 
 ## Comandos disponíveis
 # Comandos de música
-`!play [search]`: busca um vídeo no YouTube e começa a reproduzir a música no canal de voz do usuário. Se já houver uma música sendo reproduzida, adiciona à fila.<br>
-`!pause`: pausa a música que está sendo reproduzida.<br>
-`!resume`: retoma a reprodução da música que foi pausada.<br>
-`!skip`: pula para a próxima música da fila, se houver.<br>
+* `!play [search]`: busca um vídeo no YouTube e começa a reproduzir a música no canal de voz do usuário. Se já houver uma música sendo reproduzida, adiciona à fila.<br>
+* `!pause`: pausa a música que está sendo reproduzida.<br>
+* `!resume`: retoma a reprodução da música que foi pausada.<br>
+* `!skip`: pula para a próxima música da fila, se houver.<br>
 
 # Comandos de lembrete
-`!reminder [message] [time]`: cria um lembrete diário com a mensagem especificada e um link para obter informações adicionais. O tempo deve ser especificado em formato HH:MM, no fuso horário do servidor.<br>
-`!cancelreminder [id]`: remove o lembrete diário com o ID especificado.<br>
+* `!reminder [message] [time]`: cria um lembrete diário com a mensagem especificada e um link para obter informações adicionais. O tempo deve ser especificado em formato HH:MM, no fuso horário do servidor.<br>
+* `!cancelreminder [id]`: remove o lembrete diário com o ID especificado.<br>
 
 ## Configuração do bot
 O bot usa uma chave de API do Google para acessar o YouTube Data API, que é necessário para tocar músicas do YouTube. Para configurar seu próprio bot, você deve seguir as seguintes etapas:
