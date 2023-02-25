@@ -10,14 +10,14 @@ Para adicionar o bot ao seu servidor do Discord, você deve ter privilégios de 
 
 ## Comandos disponíveis
 # Comandos de música
-`!play [search]`: busca um vídeo no YouTube e começa a reproduzir a música no canal de voz do usuário. Se já houver uma música sendo reproduzida, adiciona à fila.
-`!pause`: pausa a música que está sendo reproduzida.
-`!resume`: retoma a reprodução da música que foi pausada.
-`!skip`: pula para a próxima música da fila, se houver.
+`!play [search]`: busca um vídeo no YouTube e começa a reproduzir a música no canal de voz do usuário. Se já houver uma música sendo reproduzida, adiciona à fila.<br>
+`!pause`: pausa a música que está sendo reproduzida.<br>
+`!resume`: retoma a reprodução da música que foi pausada.<br>
+`!skip`: pula para a próxima música da fila, se houver.<br>
 
 # Comandos de lembrete
-`!reminder [message] [time]`: cria um lembrete diário com a mensagem especificada e um link para obter informações adicionais. O tempo deve ser especificado em formato HH:MM, no fuso horário do servidor.
-`!cancelreminder [id]`: remove o lembrete diário com o ID especificado.
+`!reminder [message] [time]`: cria um lembrete diário com a mensagem especificada e um link para obter informações adicionais. O tempo deve ser especificado em formato HH:MM, no fuso horário do servidor.<br>
+`!cancelreminder [id]`: remove o lembrete diário com o ID especificado.<br>
 
 ## Configuração do bot
 O bot usa uma chave de API do Google para acessar o YouTube Data API, que é necessário para tocar músicas do YouTube. Para configurar seu próprio bot, você deve seguir as seguintes etapas:
@@ -39,11 +39,11 @@ Substitua "YOUR_API_KEY_HERE" pela chave de API do Google que você copiou.
 
 ***
 
-- Para executar o bot, você precisará criar um arquivo .env com as seguintes variáveis de ambiente:
+Para executar o bot, você precisará criar um arquivo .env com as seguintes variáveis de ambiente:
 
-* DISCORD_TOKEN: o token de autenticação do Discord para o seu bot.
-* YOUTUBE_API_KEY: a chave de API do YouTube para buscar vídeos e informações.
-* TIMEZONE: o fuso horário em que o bot deve operar (por exemplo, "America/Sao_Paulo").
+* `DISCORD_TOKEN`: o token de autenticação do Discord para o seu bot.
+* `YOUTUBE_API_KEY`: a chave de API do YouTube para buscar vídeos e informações.
+* `TIMEZONE`: o fuso horário em que o bot deve operar (por exemplo, "America/Sao_Paulo").
 
 ## Execução
 
@@ -51,7 +51,6 @@ Após configurar as variáveis de ambiente, você pode executar o bot com o segu
 
 ```
 python index.py
-
 ```
 
 Certifique-se de ter as bibliotecas `discord.py`, `google-auth`, `google-auth-oauthlib`, `google-auth-httplib2`, `google-api-python-client`, `pytz` e `python-dotenv` instaladas.
