@@ -2,9 +2,9 @@
 ## Adicionando o bot ao seu servidor Discord
 Para adicionar o bot ao seu servidor do Discord, você deve ter privilégios de administrador no servidor. Em seguida, siga os seguintes passos:
 
-1.Acesse o link de convite do bot: [coloque aqui o link do convite do bot].
-2.Selecione o servidor que você deseja adicionar o bot e clique em "Autorizar".
-3.O bot agora estará disponível em seu servidor do Discord.
+1.Acesse o link de convite do bot: [coloque aqui o link do convite do bot].<br>
+2.Selecione o servidor que você deseja adicionar o bot e clique em "Autorizar".<br>
+3.O bot agora estará disponível em seu servidor do Discord.<br>
 
 # Comandos disponíveis
 O bot tem os seguintes comandos disponíveis:
